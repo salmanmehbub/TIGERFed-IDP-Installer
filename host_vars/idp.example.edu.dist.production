@@ -16,32 +16,32 @@ idp_attribute_scope: "example.edu"
 federation_id: "AAF"
 
 # The federation's group id used for metadata-based attribute filtering
-federation_group_id: "https://md.aaf.edu.au/aaf-metadata.xml"
+federation_group_id: "https://tigerfed.net.bd"
 
 # Shared federation metadata
-metadata_url: "https://md.aaf.edu.au/aaf-metadata.xml"
+metadata_url: "https://registry.tigerfed.net.bd/rr3/signedmetadata/federation/tiger-fed/metadata.xml"
 
 # Shared federation certificate
-metadata_cert_url: "https://md.aaf.edu.au/aaf-metadata-certificate.pem"
-metadata_cert_sha256sum: 00ec963039ca877b7111db3188d3d646e071c4c84ab8201fc35ad62a77ffa1a1
+metadata_cert_url: "https://registry.tigerfed.net.bd/rr3/signedmetadata/tigerfed-metadata-certificate.pem"
+metadata_cert_sha256sum: 1d8f586fe4b81abba64576ecada4a19dfeb4a3e804bc466ff1236c60bf582307
 
 # Metadata file name
-metadata_file_name: aaf-metadata.xml
+metadata_file_name: tigerfed-metadata.xml
 
 # Metadata certificate file name
-metadata_cert_file_name: aaf-metadata.pem
+metadata_cert_file_name: tigerfed-metadata.pem
 
 # Your organisation's name
 organisation_name: "The University of Example"
 
 # Your organisation's support desk URL
-organisation_support: "https://support.example.edu"
+organisation_support: "https://tigerfed.net.bd"
 
 # Your organisation's home URL
-organisation_url: "https://example.edu"
+organisation_url: "https://tigerfed.net.bd"
 
 # Your organisation's password reset URL
-password_reset_url: "https://changepw.example.edu"
+password_reset_url: "https://tigerfed.net.bd"
 
 # Your schacHomeOrganization. See http://www.terena.org/activities/tf-emc2/schacreleases.html
 home_organisation: "example.edu"
